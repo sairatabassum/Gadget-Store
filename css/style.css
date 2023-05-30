@@ -22,7 +22,7 @@ body {
   margin-top: 190px;
 }
 .container-fluid {
-  width: 91%;
+  width: 93%;
 }
 .footer-s a {
   text-decoration: none;
@@ -35,7 +35,7 @@ body {
   display: block;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 27px;
 }
@@ -52,4 +52,10 @@ body {
 }
 .line {
   border: 1px solid #b3b3b3;
+}
+.footer-icons {
+  margin-right: 60px;
+}
+.footer-icon {
+  color: #ffffff;
 }
