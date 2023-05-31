@@ -155,7 +155,15 @@ body {
   color: #dddddd;
 }
 .selling-img {
-  margin-left: -89px;
+  position: relative;
+  top: -38px;
+  right: -1px;
+}
+.selling-img-purple {
+  width: 100%;
+}
+.card-para {
+  width: 80%;
 }
 /* FOOTER SECTION */
 
