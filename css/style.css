@@ -22,18 +22,23 @@ body {
 .product-section .cards {
   grid-template-columns: auto auto auto auto;
   margin: 90px;
+  padding: 30px;
 }
 .product-card {
   background-color: #28282a;
   box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.3);
   border: 1px solid #000000;
   border-radius: 15px;
-  width: 92%;
-  height: 80%;
   color: #dddddd;
+  overflow: visible;
+  height: 340px;
+  width: 80%;
+  margin: 20px;
+  margin-bottom: 120px;
 }
 .product-card img {
-  margin-top: -50px;
+  margin-top: -60px;
+  width: 160px;
 }
 
 .product-para h4 {
@@ -50,25 +55,29 @@ body {
   color: #9460e9;
 }
 .product-section-para {
-  width: 60%;
+  width: 70%;
+  padding: 12px;
   overflow: hidden;
 }
 .product-btn button {
   background: #28282a;
   color: #ffffff;
   border: none;
+  font-size: 12px;
 }
 .product-btn button i {
   color: #9460e9;
 }
 .product-topbar {
-  margin: 80px;
+  margin-left: 140px;
+  margin-right: 170px;
 }
 .product-topbar-url {
   margin: 12px;
 }
 .product-topbar-url h1 {
   color: #dddddd;
+  font-size: 19px;
 }
 .view-all button {
   background: none;
