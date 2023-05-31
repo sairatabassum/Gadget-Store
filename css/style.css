@@ -16,6 +16,9 @@ body {
   scroll-behavior: smooth;
 }
 /* PRODUCT SECTION */
+.product-section {
+  padding: 12px;
+}
 .product-section .cards {
   grid-template-columns: auto auto auto auto;
   margin: 90px;
@@ -26,16 +29,13 @@ body {
   border: 1px solid #000000;
   border-radius: 15px;
   width: 92%;
-  height: 60%;
+  height: 80%;
   color: #dddddd;
-  /* margin: 20px; */
-  position: relative;
 }
 .product-card img {
+  margin-top: -50px;
 }
-.product-para {
-  overflow: hidden;
-}
+
 .product-para h4 {
   color: #ffffff;
   font-size: 16px;
@@ -60,6 +60,36 @@ body {
 }
 .product-btn button i {
   color: #9460e9;
+}
+.product-topbar {
+  margin: 80px;
+}
+.product-topbar-url {
+  margin: 12px;
+}
+.product-topbar-url h1 {
+  color: #dddddd;
+}
+.view-all button {
+  background: none;
+  color: #8a8a8a;
+  border: none;
+}
+.product-url {
+  margin: 12px;
+}
+.product-url a {
+  text-decoration: none;
+  padding: 10px 35px;
+  border: 1px solid #dddddd;
+  border-radius: 2em;
+  font-size: 20px;
+  font-weight: 400;
+  color: #dddddd;
+}
+.product-url a:hover {
+  background: #9460e9;
+  border: none;
 }
 /* FOOTER SECTION */
 
