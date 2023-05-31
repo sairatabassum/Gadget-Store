@@ -78,6 +78,33 @@ nav ul li a:hover {
   margin-right: 82px;
 }
 .home-topbar a {
+  text-decoration: none;
+}
+.topbar-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.noti {
+  margin-right: 22px;
+  margin-left: 20px;
+  position: relative;
+  padding: 12px;
+}
+.noti_count {
+  font-size: 11px;
+  position: absolute;
+  top: 12px;
+  left: 23px;
+  bottom: 20px;
+  background: #9460e9;
+  color: #fff;
+  width: 18px;
+  height: 16px;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 100%;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 /* PRODUCT SECTION */
 .product-section {
