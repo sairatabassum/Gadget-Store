@@ -20,24 +20,24 @@
   </head>
   <body>
     <!-- Home section -->
-    <header id="home">
-      <div>
-        <div>
+    <header id="home" class="d-flex justify-content-between home">
+      <div class="d-flex align-items-center">
+        <div class="home-title d-flex flex-column text-center">
           <h1>My</h1>
-          <h1>Store</h1>
+          <h1 class="purple">Store</h1>
         </div>
 
-        <div>
-          <form>
-            <input type="search" placeholder="Search Products" />
-            <i class="bi bi-search"></i>
-          </form>
-          <i></i>
+        <div class="home-search d-flex align-items-center">
+          <i class="search-icon bi bi-search"></i> 
+          <input class="home-input" type="search" placeholder="         Search Products...">
+          <i class="filter-icon bi bi-filter-square"></i>
+        </div>
+
         </div>
       </div>
 
-      <nav>
-        <ul class="row">
+      <nav class="d-flex align-items-center">
+        <ul class="d-flex">
           <li><a href="#home">Home</a></li>
           <li><a href="#shop">Shop</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -45,8 +45,8 @@
         </ul>
       </nav>
 
-      <div>
-        <a href="">
+      <div class="home-topbar d-flex justify-content-between align-items-center">
+        <a href="" class="navbar-img">
           <img src="./img/59.png" alt="img-1" />
         </a>
 
