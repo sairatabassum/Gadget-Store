@@ -76,20 +76,86 @@ body {
   border: none;
 }
 .product-url {
-  margin: 12px;
+  padding: 18px;
 }
 .product-url a {
   text-decoration: none;
-  padding: 10px 35px;
+  padding: 8px 35px;
   border: 1px solid #dddddd;
   border-radius: 2em;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
   color: #dddddd;
+  margin: 15px;
 }
 .product-url a:hover {
   background: #9460e9;
   border: none;
+}
+/* Best Selling Product Section */
+.selling-title {
+  color: #dddddd;
+}
+.selling-topbar {
+  margin: 70px;
+}
+
+.selling-cards {
+  margin: 50px;
+}
+.selling-card {
+  background: #28282a;
+  border: 4px solid #5c5c5c;
+  box-shadow: 1px 1px 30px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 30px;
+}
+.selling-card-title {
+}
+.selling-card-title h4 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.selling-card-title h5 {
+  color: #9460e9;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+.selling-card-title h3 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.selling-card-title p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+}
+.card-purple {
+  background: #9460e9;
+  border: 5px solid #7724ff;
+}
+.card-purple .selling-card-title h5,
+.card-purple .selling-card-title h4 {
+  color: #ffff;
+  opacity: 1;
+}
+
+.btn-p button {
+  background: #9460e9;
+}
+.btn-p button i {
+  color: #dddddd;
+}
+.selling-img {
+  margin-left: -89px;
 }
 /* FOOTER SECTION */
 
